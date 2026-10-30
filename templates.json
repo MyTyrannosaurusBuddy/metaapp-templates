@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "name": "counter",
+      "description": "Plus/minus counter with persisted count. Minimal reference for a PluginContract app.",
+      "path": "counter/src/com/meta/plugin/DynamicPlugin.java",
+      "keywords": ["counter", "tally", "clicker", "number"]
+    }
+  ]
+}
