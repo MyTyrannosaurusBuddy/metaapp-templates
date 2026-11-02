@@ -2,10 +2,32 @@
   "version": 1,
   "templates": [
     {
+      "name": "calculator",
+      "description": "Full calculator with expression parser, parentheses/percent/power and a tap-to-reuse history panel.",
+      "files": [
+        "calculator/src/com/meta/plugin/DynamicPlugin.java",
+        "calculator/src/com/meta/plugin/CalcEngine.java",
+        "calculator/src/com/meta/plugin/CalculatorView.java"
+      ],
+      "keywords": [
+        "calculator",
+        "calc",
+        "math",
+        "arithmetic",
+        "表达式",
+        "计算"
+      ]
+    },
+    {
       "name": "counter",
       "description": "Plus/minus counter with persisted count. Minimal reference for a PluginContract app.",
       "path": "counter/src/com/meta/plugin/DynamicPlugin.java",
-      "keywords": ["counter", "tally", "clicker", "number"]
+      "keywords": [
+        "counter",
+        "tally",
+        "clicker",
+        "number"
+      ]
     }
   ]
 }
