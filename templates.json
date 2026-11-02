@@ -2,6 +2,24 @@
   "version": 1,
   "templates": [
     {
+      "name": "minesweeper",
+      "description": "Minesweeper game: reveal/auto-expand, flagging, timer and synthesized sound effects.",
+      "files": [
+        "minesweeper/src/com/meta/plugin/DynamicPlugin.java",
+        "minesweeper/src/com/meta/plugin/MinesweeperGame.java",
+        "minesweeper/src/com/meta/plugin/BoardView.java",
+        "minesweeper/src/com/meta/plugin/SoundFx.java"
+      ],
+      "keywords": [
+        "minesweeper",
+        "mine",
+        "sweeper",
+        "game",
+        "扫雷",
+        "雷"
+      ]
+    },
+    {
       "name": "calculator",
       "description": "Full calculator with expression parser, parentheses/percent/power and a tap-to-reuse history panel.",
       "files": [
