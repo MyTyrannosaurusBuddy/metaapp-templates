@@ -2,6 +2,33 @@
   "version": 1,
   "templates": [
     {
+      "name": "clock",
+      "description": "Clock with analog face, alarms (snooze), stopwatch and countdown timer in one app.",
+      "files": [
+        "clock/src/com/meta/plugin/DynamicPlugin.java",
+        "clock/src/com/meta/plugin/Page.java",
+        "clock/src/com/meta/plugin/Ui.java",
+        "clock/src/com/meta/plugin/ClockPage.java",
+        "clock/src/com/meta/plugin/AnalogClockView.java",
+        "clock/src/com/meta/plugin/AlarmPage.java",
+        "clock/src/com/meta/plugin/Alarm.java",
+        "clock/src/com/meta/plugin/Beeper.java",
+        "clock/src/com/meta/plugin/StopwatchPage.java",
+        "clock/src/com/meta/plugin/TimerPage.java"
+      ],
+      "keywords": [
+        "clock",
+        "alarm",
+        "stopwatch",
+        "timer",
+        "time",
+        "时钟",
+        "闹钟",
+        "秒表",
+        "计时"
+      ]
+    },
+    {
       "name": "minesweeper",
       "description": "Minesweeper game: reveal/auto-expand, flagging, timer and synthesized sound effects.",
       "files": [
