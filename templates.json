@@ -16,6 +16,12 @@
         "clock/src/com/meta/plugin/StopwatchPage.java",
         "clock/src/com/meta/plugin/TimerPage.java"
       ],
+      "components": [
+        "analog-clock",
+        "alarm",
+        "stopwatch",
+        "timer"
+      ],
       "keywords": [
         "clock",
         "alarm",
